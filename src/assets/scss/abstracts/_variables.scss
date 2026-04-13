@@ -1,0 +1,29 @@
+$primary:#f15a21;
+$secondary: #2c2b29;
+$text-light: #ffffff;
+$light: #F3F4F4;
+$font-main: 'Poppins', sans-serif;
+
+
+// comman id padding
+$sections:banner, special-dishes, our-expects-chef,happy_custmer,newsletter,footer;
+
+@each $sect in $sections {
+  ##{$sect} {
+    padding: 30px 20px;
+  }
+}
+.custom-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#happy_custmer{
+    background-color: $light;
+}

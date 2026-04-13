@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as v;
+
+.btn {
+  padding: 10px 20px;
+  font-size: 10px;
+    border-radius: 10px 3px;
+}
+
+.btn-primary {
+  background-color: v.$primary;
+  color: v.$text-light;
+  border: none;
+text-transform: capitalize;
+margin-left: 10px;
+}
+
+.btn-secondary {
+  background-color: v.$secondary;
+  color: v.$text-light;
+  border: none;
+  text-transform: capitalize;
+  
+}

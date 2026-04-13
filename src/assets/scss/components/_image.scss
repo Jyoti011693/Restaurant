@@ -1,0 +1,89 @@
+        // bnnaer image
+.image-set{
+     position: relative; 
+    display: inline-block;
+
+.flower{
+   width: 100%; 
+    max-width: 200px;
+  position: absolute;
+  left: 75%;
+  top:-75px
+}
+.leaves{
+   width: 100%; 
+    max-width: 400px;
+  position: absolute;
+  top: -65px;
+  left:-85px;
+}
+.leaves-2{
+   width: 100%; 
+    max-width: 200px;
+  position: absolute;
+  right: -120px;
+  bottom: 10px;
+  
+}
+.dish{
+ position: absolute;
+    bottom: 30px;
+    left: -15%;
+  width: 60%;
+  }
+.mask{
+   display: block;
+    width: 100%; 
+    max-width: 450px;
+    float:inline-end; 
+    position: relative;
+}
+}
+// close the image-set class
+
+.card-img-top{
+width:70%
+}
+.group{
+width: 70px;
+margin-bottom: 20px;
+margin-left: -50px;
+}
+#greenleaf{
+width: 100%; 
+max-width: 150px;
+ position: absolute;
+}
+.leaf-3{
+  right: -35px;
+    top: 90px;
+  }
+  .leaf-1{
+   right: 85%;
+    top: 150px;
+    
+  }
+  .leaf-2{
+    right: 60%;
+    top:80%
+  }
+  //  Our Expects Chef
+.chef-img{
+  width: 100%;
+    max-width: 400px;
+}
+
+ .profile-img {
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        object-fit: cover;
+      }
+    }

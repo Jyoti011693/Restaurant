@@ -1,0 +1,37 @@
+#newsletter {
+  margin-top: -180px;
+  position: relative;
+  z-index: 2;
+
+  .newsletter_box {
+    background: url('../images/nwslwter.png') center/cover no-repeat;
+    padding: 70px 20px;
+    border-radius: 25px;
+    color: #fff;
+  }
+  .newsletter_form {
+  background: #fff;
+  border-radius: 20px;
+  padding: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.newsletter_form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px 15px;
+  font-size: 14px;
+}
+
+.newsletter_form button {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+}

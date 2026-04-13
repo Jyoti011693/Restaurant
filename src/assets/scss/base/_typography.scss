@@ -1,0 +1,48 @@
+@use "../abstracts/variables" as *;
+
+body {
+  font-family: $font-main;
+}
+
+.banner-text {
+  text-align: justify;
+  margin-bottom: 90px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: David Libre;
+  }
+
+ p {
+    font-family: Inter;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    line-height: 15px;
+    font-size:small;
+    color: gray;
+    text-align: justify;
+  }
+  h6{
+    font-size: small;
+    font-weight: bold;
+  }
+  h5{
+    font-size: small;
+    font-weight: bold;
+  }
+  h2{
+ font-weight: bold;
+    line-height: 1.2;
+    font-family: David Libre;
+  }
+  .header-title{
+      display: inline-block;
+    text-align: center;
+}
+ .chef-title{
+    text-align: justify;
+    width: 50%;
+    margin-top: 50px;
+}
